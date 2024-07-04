@@ -8,7 +8,6 @@
         <div class="col-md-l2 col-lg-12 col-12">
             <?php echo $content; ?>
         </div>
+        <?php include_once('footer.php');?>
+
     </div>
-
-
-    <?php include_once('footer.php');

@@ -17,7 +17,6 @@ body {
 }
 
 .sidebar-header {
-    padding: 20px;
     background: #3c8dbc;
     text-align: center;
 }
@@ -51,7 +50,6 @@ body {
 
 .header {
     background: #fff;
-    padding: 10px;
     border-bottom: 1px solid #ddd;
 }
 
@@ -70,7 +68,7 @@ body {
 }
 
 main {
-    padding: 20px;
+    
 }
 
 section {
@@ -79,4 +77,90 @@ section {
 
 section h1 {
     margin-top: 0;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav li {
+    margin-left: 15px;
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.profile {
+    position: relative;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.profile-menu {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.profile-menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    transition: background 0.3s;
+}
+
+.profile-menu a:hover {
+    background-color: #f4f4f4;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+.profile-info img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.profile-info div {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-info div span {
+    font-size: 0.9em;
+    color: #666;
 }
